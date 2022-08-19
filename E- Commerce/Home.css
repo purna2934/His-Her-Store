@@ -1,0 +1,74 @@
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+  }
+
+
+nav{
+    background: #ffffff;
+    height: 80px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+  }
+  .logo{
+    position: relative;
+    left: 5%;
+    height: 60px;
+  }
+
+  nav ul{
+     
+        margin-left: 0%;
+        
+  }
+  nav ul li{
+    position: relative;
+    display: inline-block;
+    line-height: 80px;
+    margin: 0 5px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: inline-block;
+  }
+  nav ul li a{
+    color: rgb(0, 0, 0);
+    font-size: 17px;
+    padding: 7px 13px;
+    border-radius: 3px;
+    text-transform: uppercase;
+    text-decoration: none;
+    transition: 0.5s;
+
+  }
+    a:hover{
+    background: #252525;
+    color: white;
+    transition: .2s;
+  }
+  .checkbtn{
+    font-size: 30px;
+    color: white;
+    float: right;
+    line-height: 80px;
+    margin-right: 40px;
+    cursor:pointer;
+    display: none;
+  }
+  #check{
+    display: none;
+  }
+
+input[type="search"]{
+    width: 300px;
+    height: 50px;
+    margin: 15px 20px 0px 0px;
+    border-radius: 30px;
+    padding: 10px;
+    border-color: black;
+}
+input[type="search"]:hover{
+    box-shadow: 0px 0px 30px 1px rgba(51, 51, 51, 0.331);
+}
