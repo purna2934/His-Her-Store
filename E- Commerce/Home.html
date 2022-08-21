@@ -7,17 +7,19 @@
     <title>Document</title>
     <link rel="stylesheet" href="style.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap" rel="stylesheet">
 </head>
 <body>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
     <nav>
-        <input type="checkbox" id="check">
-        <label for="check" class="checkbtn">
-            <i class="fa fa-bars"></i>
+       
         </label>
 
+
         <img  class = "logo" src="/logo/Logo.png" alt="Logo">
-        <h1 class="store">Store</h1>
+        <h1 class="store">Store.</h1>
             <ul>
                 <li><a  href="">Home</a></li>
                 <li><a href="">Login</a></li>
@@ -29,15 +31,33 @@
                 
         
     </nav>
-    <div class="cat">
+    <br>
+    <div class="button">
+      <button class="his">His</button>
+      <div class="dropdown-content">
+        <a href="#">shirts</a>
+        <a href="#">jeans</a>
+        <a href="#">shoes</a>
+        <a href="#">watches</a>
+      </div>
+      
+      <button class="her">Her</button>
+      
+
+    </div> 
+    
+    <br>
+  
        
     </div>
     <br>
-    <div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel">
+    <div class="caro">
+      <div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel">
         <div class="carousel-indicators">
           <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
           <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
           <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
+          <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="3" aria-label="Slide 4"></button>
         </div>
         <div class="carousel-inner">
           <div class="carousel-item active" data-bs-interval="5000">
@@ -53,10 +73,8 @@
             </div>
           </div>
           <div class="carousel-item" data-bs-interval="5000">
-            <img src="/carosel/19082022-d-unisex-topbannercarousel-p2-brands-flat50extra2990.jpg" class="d-block w-100" alt="...">
-            <div class="carousel-caption d-none d-md-block">
-              
-            </div>
+            <img src="/carosel/19082022-d-unisex-topbannercarousel-p2-brands-flat50extra2990.jpg"  class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block"> 
           </div>
         </div>
         <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
@@ -68,14 +86,75 @@
           <span class="visually-hidden">Next</span>
         </button>
       </div>
-      <br>
-      <div class="card">
-        <img src="/jeans/ecko_unltd_white_slim_fit_distressed_biker_jeans.webp" alt="Denim Jeans" style="width: 300px;">
-        <h1>Tailored Jeans</h1>
-        <p class="price">$19.99</p>
-        <p>Some text about the jeans. Super slim and comfy lorem ipsum lorem jeansum. Lorem jeamsun denim lorem jeansum.</p>
-        <p><button>Add to Cart</button></p>
-      </div>
+
+    </div>
+    
+     
+      
+      <div class="box">
+        <div class="heading">
+          <p>New Collection</p>
+        </div>
+        <div class="center">
+            <div class="card">
+                <div class="grad">
+                    <div class="product">
+                        <img src="/shirts/dennislingo_premium_attire_navy_checked_slim_fit_shirt_with_buttoned_flap_pockets.webp"  alt="Image Not Found">
+                    </div>
+                   
+                    <p class="product-name">Diesel Mens Mega Chief </p>
+                    <p class="product-price">Rs : 999</p>
+                </div>
+                <button class="cart">Add to Cart</button>
+            </div>
+            <div class="card">
+              <div class="grad">
+                  <div class="product">
+                      <img src="/shirts/dennislingo_premium_attire_navy_checked_slim_fit_shirt_with_buttoned_flap_pockets.webp"  alt="Image Not Found">
+                  </div>
+                 
+                  <p class="product-name">Diesel Mens Mega Chief </p>
+                  <p class="product-price">Rs : 999</p>
+              </div>
+              <button class="cart">Add to Cart</button>
+          </div>
+           
+                    
+              
+            
+            <div class="card">
+                <div class="grad">
+                    <div class="product">
+                        <img src="/shirts/dennislingo_premium_attire_indigo_button_up_slim_fit_shirt.webp" alt="Image Not Found">
+                    </div>
+                    <p class="product-name">Titan </p>
+                    <p class="product-price">Rs : 999</p>
+                    
+                </div>
+                <button class="cart">Add to Cart</button>
+            </div>
+            <div class="card">
+                <div class="grad">
+                    <div class="product">
+                        <img src="/shirts/campus_sutra_blue_striped_shirt_with_curved_hemline.webp" alt="Image Not Found">
+                    </div>
+                    <p class="product-name">ROLEX </p>
+                    <p class="product-price">Rs : 99999</p>
+                    
+                </div>
+                <button class="cart">Add to Cart</button>
+            </div>
+            
+        </div>
+    </div>
+    <br>
+    <div class="strech">
+     
+    </div>
+
+
+    
+      
 
 </body>
 </html>
