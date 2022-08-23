@@ -1,0 +1,330 @@
+*{
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+  list-style: none;
+  box-sizing: border-box;
+}
+
+
+nav{
+  background: #ffffff;
+  height: 80px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  padding: 6px 2px;
+
+}
+.logo{
+  position: relative;
+  left: 5%;
+  height: 60px;
+}
+.store{
+  display: inline-block;
+  padding: 35px 310px 380px 0px;
+
+
+  font-size: 20px;
+}
+
+nav ul{
+   
+      margin-left: 0%;
+      
+}
+nav ul li{
+  position: relative;
+  display: inline-block;
+  line-height: 80px;
+  margin: 0 5px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  
+}
+nav ul li a{
+  color: rgb(0, 0, 0);
+  font-size: 17px;
+  padding: 7px 13px;
+  border-radius: 3px;
+  text-transform: uppercase;
+  text-decoration: none;
+  transition: 0.5s;
+  
+
+}
+.fa fa-bars{
+  color: #ffffff;
+}
+
+ nav ul li a:hover{
+  background: #1c1c1c;
+  color: #ffffff;
+  
+}
+.caro{
+  width: auto;
+  height: auto;
+}
+.checkbtn{
+  font-size: 30px;
+  color: white;
+  float: right;
+  line-height: 80px;
+  margin-right: 40px;
+  cursor:pointer;
+  display: none;
+}
+
+
+input[type="search"]{
+  width:23%;
+  height: 50px;
+  margin: 15px 20px 0px 0px;
+  border-radius: 30px;
+  padding: 10px;
+
+  background-image: url(/icons/search.png);
+
+  background-position-x: 10px;
+  background-position-y: 50%;
+  background-repeat: no-repeat;
+  background-size: 5%;
+  text-align: center;
+  
+}
+input[type="search"]:hover{
+  box-shadow: 0px 0px 30px 1px rgba(90, 123, 255, 0.627);
+}
+
+
+.card {
+box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+max-width: 300px;
+text-align: center;
+font-family: arial;
+transition: 0.5s;
+margin-left: 50px;
+justify-items: center;
+
+
+}
+.card:hover{
+transform: scale(1.1);
+}
+
+.price {
+color: grey;
+font-size: 22px;
+}
+
+.card button {
+border: none;
+outline: 0;
+padding: 12px;
+color: white;
+background-color: #000;
+text-align: center;
+cursor: pointer;
+width: 300px;
+font-size: 18px;
+transition: 0.6;
+
+}
+
+.box{
+position: relative;
+width: 95%;
+margin: 30px 0px 0px 35px;
+border-radius: 10px;
+height: 550px;
+background-image: linear-gradient( 109.6deg,  rgba(253,199,141,1) 11.3%, rgba(249,143,253,1) 100.2% );
+
+background-size:100%;
+
+
+}
+.heading p{
+position: relative;
+font-size: 40px;
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+margin: 5px 0px 0px 650px;
+color:white;
+}
+
+.center{
+position: relative;
+width: 98%;
+height: 480px;
+top: 40%;
+left: 40px;
+
+
+margin-left:720px;
+transform: translate(-50%, -45%);
+display: flex;
+z-index: 6;
+padding-left: 5px;
+}
+.box .card{
+width: 300px;
+height: 450px;
+background: white;
+margin: 20px 5px 0px 22px;
+border-radius: 10px;
+z-index:7;
+
+}
+
+
+.grad{
+width: 230px;
+height: 350px;
+margin: 10px 0px 0px 20px;
+background-color: #ffffff;
+/*background: radial-gradient(rgb(255, 236, 181) 20px, rgb(255, 255, 255) 80%);*/
+
+
+}
+.product{
+position: relative;
+width: 200px;
+height: 170px;
+top: 20px;
+left: 10%;
+
+
+}
+.product img{
+width: 200px;
+
+}
+.brand{
+position: relative;
+top:30%;
+font-size: 20px;
+
+}
+
+.product-name{
+position: relative;
+top: 15%;
+margin: 70px 0px 0px 10px;
+font-size: 20px;
+font-family: 'Poppins', sans-serif;
+
+
+}
+.product-price{
+position: relative;
+top:14%;
+font-size: 18px;
+margin:5px 0px 0px 6px;
+
+}
+.product-description{
+position: relative;
+font-size: 12px;
+margin: 10px 20px 0px 10px;
+color: rgb(166, 166, 166);
+
+
+}
+.btn-btn-dark{
+width: 400px;
+height: 50px;
+
+}
+.cart{
+
+position: relative;
+width: 300px;
+height: 50px;
+top: 9%;
+right: 0.5%;
+border-bottom-left-radius: 10px;
+border-bottom-right-radius: 10px;
+transition: .4s;
+background-image: url(/icons/shopping-cart.png);
+}
+/*.grad:hover + .cart{
+display: block;
+}*/
+.cart:hover{
+transform: scale(1.1); 
+}
+.stretchbox{
+width: 800px;
+height:100px;
+margin: 0px auto;
+
+
+
+}
+.items{
+width: 100%;
+height: 500px;
+background-color: aqua;
+}
+.button{
+  width: 50%;
+  height: max-content;
+  margin: 0px auto; 
+}
+.button button{
+height: 50px;
+width: 49%;
+transition: 0.5;
+border-radius: 10px;
+transition:1s;
+
+}
+
+.his{
+
+background-color: #FF9A8B;
+background-image: linear-gradient(90deg, #FF9A8B 0%, #FF6A88 55%, #FF99AC 100%);
+background-image: url(/icons/man.png);
+background-position-x: 10px;
+  background-position-y: 50%;
+  background-repeat: no-repeat;
+  background-size: 5%;
+
+
+}
+.her{
+background-color: #FFDEE9;
+background-image: linear-gradient(0deg, #FFDEE9 0%, #B5FFFC 100%);
+
+background-image: url(/icons/hairstyle.png);
+background-position-x: 10px;
+  background-position-y: 50%;
+  background-repeat: no-repeat;
+  background-size: 5%;
+}
+.dropdown-content {
+display: none;
+position: absolute;
+background-color: #f1f1f1;
+min-width: 160px;
+box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+z-index: 1;
+}
+.dropdown-content a {
+color: black;
+padding: 12px 16px;
+text-decoration: none;
+display: block;
+
+}
+
+.button a .dropdown-content{
+
+padding: 12px 16px;
+text-decoration: none;
+display: none;
+}
+.button:hover .dropdown-content {display: block;}
+
+
+
